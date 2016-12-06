@@ -49,3 +49,20 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+This configuration includes volume control via MOD+ArrowKey
+
+MOD+LeftArrow = Decrease Volume
+MOD+RightArrow = Increase Volume
+
+(These are set in config.h)
+
+
+Setup
+-----
+Move scripts/.fehbg -> /home/username/
+Move scripts/.Xsession -> /home/username/
+Move scripts/icons/icons.ttf -> /home/username/.fonts/
+Move scripts/user.desktop -> /usr/share/xsessions
+
+Note: .fehbg is where the background image is set
